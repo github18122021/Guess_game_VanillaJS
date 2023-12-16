@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess Game</title>
+  </head>
+  <body>
+    <h1 class="game-title">Welcome to the guess game</h1>
+    <section class="game-initiate">
+      <label for="name">Name :</label>
+      <input type="text" placeholder="player name" id="name" name="playerName">
+      <section class="button-wrapper">
+        <button class="play-btn">Play</button>
+      </section>
+    </section>
+    <section class="game-started">
+      <label for="number">Guess the number between 1 to 100</label>
+      <section class="input-wrapper">
+        <input type="text" placeholder="5" name="guessedNumber" id="number">
+      </section>
+      <section class="button-container">
+        <button class="game-btn">Guess It!</button>
+        <button class="game-btn">Play again</button>
+      </section>
+      <p> 10 is Too High!</p>
+      <p>You guessed it correct!!</p>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

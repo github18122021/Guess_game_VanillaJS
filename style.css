@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+:root {
+  --game-font: 'Silkscreen', sans-serif;
+}
+/* predefined styles */
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: yellow;
+  background-color: black;
+  font-family: var(--game-font);
+}
+
+.game-title {
+  text-align: center;
+}
+
+label[for="name"] {
+  font-size: 2rem;
+}
+
+input[name = "playerName"] {
+  border-radius: 10px;
+  color: yellow;
+  background-color: black;
+  font-size: 2rem;
+  font-family: var(--game-font);
+  text-align: center;
+}
+
+input[name = "playerName"]:focus {
+  box-shadow: none;
+  outline: 2px solid #f2f2f2;
+  font-weight: bold;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.game-initiate {
+  width: fit-content;
+  margin: 10rem auto;
+}
+
+.play-btn {
+  background-color: black;
+  border-radius: 10px;
+  width: 15%;
+  font-size: 2rem;
+  color: yellow;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.play-btn:hover {
+  outline: 1px solid #f2f2f2;
+}
+
+
+.game-initiate {
+  /* display: none; */
+}
+
+
+.game-started {
+  display: none;
+  /* border: 2px solid green; */
+  
+}
+
+label[for="number"] {
+  font-size: 2.5rem;
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+}
+
+.input-wrapper {
+  /* background-color: yellow; */
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: center;
+}
+
+input[name="guessedNumber"] {
+  border-radius: 10px;
+  background-color: black;
+  color: yellow;
+  font-size: 2rem;
+  font-family: var(--game-font);
+  text-align: center;
+  margin: 2rem;
+}
+
+input[name="guessedNumber"]:focus {
+  box-shadow: none;
+  outline: 2px solid #f2f2f2;
+  font-weight: bold;
+}
+
+.button-container {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+.game-btn {
+  background-color: black;
+  border-radius: 10px;
+  width: 15%;
+  font-size: 2rem;
+  color: yellow;
+  margin-top: 1rem;
+  text-align: center;
+  margin-left: 2rem;
+}
+
