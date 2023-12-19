@@ -20,6 +20,7 @@ To run the game, click on the link: https://symphonious-kitten-84a439.netlify.ap
 
 
 Future Improvements:
+
     Implement different themes and visual enhancements.
     Making Game Responsive
 
