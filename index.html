@@ -6,7 +6,9 @@
     <title>Guess Game</title>
   </head>
   <body>
+
     <h1 class="game-title">Welcome to the guess game</h1>
+
     <section class="game-initiate">
       <label for="name">Name :</label>
       <input type="text" placeholder="player name" id="name" name="playerName">
@@ -14,17 +16,26 @@
         <button class="play-btn">Play</button>
       </section>
     </section>
+
     <section class="game-started">
+
       <label for="number">Guess the number between 1 to 100</label>
+
       <section class="input-wrapper">
         <input type="text" placeholder="5" name="guessedNumber" id="number">
       </section>
+
       <section class="button-container">
         <button class="game-btn guess-btn">Guess It!</button>
-        <button class="game-btn">Play again</button>
+        <button class="game-btn playGame-btn">Play again</button>
       </section>
-      <p> 10 is Too High!</p>
-      <p>You guessed it correct!!</p>
+
+      <section class="game-response">
+      <!-- 
+        <p> 10 is Too High! (1 Attempt left)</p>
+        <p>Only 1 attempt left</p> 
+      -->
+      </section>
     </section>
     <script type="module" src="/main.js"></script>
   </body>

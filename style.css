@@ -4,6 +4,7 @@
 :root {
   --game-font: 'Silkscreen', sans-serif;
 }
+
 /* predefined styles */
 
 html {
@@ -126,3 +127,9 @@ input[name="guessedNumber"]:focus {
   margin-left: 2rem;
 }
 
+.game-response {
+  /* border: 2px solid green; */
+  font-size: 1.8rem;
+  width: fit-content;
+  margin: 5rem auto;
+}
